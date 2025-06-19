@@ -1,4 +1,4 @@
-/* Add to existing styles */
+/*styling */
 .form-group {
     margin-bottom: 1.5em;
 }
@@ -42,7 +42,7 @@ button[type="submit"]:hover {
     background: #3498db;
 }
 
-/* Responsive adjustments for form */
+/*form */
 @media (max-width: 768px) {
     .form-group {
         margin-bottom: 1em;
