@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamanzi Golbert | Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Kamanzi Golbert</h1>
+            <p>Aspiring Web Developer with a passion for clean code and responsive design.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-grid">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Freelance Web Developer</strong> – 2023-Present</p>
+            <p>Built and deployed websites for small businesses.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>BSc in Software Engineering</strong></p>
+            <p>African Leadership University, 2024-2027</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p><strong>Portfolio Website</strong> – Personal website to showcase projects and resume.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <span class="error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <span class="error" id="messageError"></span>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="contactInfo">
+                <p><strong>Name:</strong> Kamanzi Gautier Golbert</p>
+                <p><strong>Email:</strong> g.kamanzi1@alustudent.com</p>
+            </div>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kamanzi Golbert</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
